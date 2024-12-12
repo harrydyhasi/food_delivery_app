@@ -1,0 +1,58 @@
+name: food_delivery_h2d
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  smooth_page_indicator: ^1.1.0
+  get: ^4.6.5
+  http: ^1.2.2
+  intl: ^0.19.0
+  shimmer: ^3.0.0
+  lottie: ^3.1.2
+  connectivity_plus: ^6.0.5
+  google_nav_bar: ^5.0.6
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^13.0.1
+  flutter_map_location_marker: ^9.1.1
+  flutter_slidable: ^3.1.1
+  flutter_rating_stars: ^1.1.0
+  animated_background: ^2.0.0
+  url_strategy: ^0.2.0
+  image_picker: ^1.1.2
+  dotted_border: ^2.1.0
+  data_table_2: ^2.5.15
+  get_storage: ^2.1.1
+  path_provider: ^2.1.5
+  fl_chart: ^0.69.0
+  month_year_picker: ^0.4.0+1
+  flutter_datetime_picker: ^1.5.1
+  flutter_localization: ^0.2.2
+  cached_network_image: ^3.4.1
+  carousel_slider: ^5.0.0
+  socket_io_client: ^2.0.1
+  path: any
+  # flutter_localizations: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
+    - assets/icons/
+    - assets/logos/
